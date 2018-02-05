@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+
+# Environments
+.env/
+
+# Development Environments
+.c9/
