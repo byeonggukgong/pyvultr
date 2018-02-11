@@ -9,5 +9,5 @@ def test_mock():
 
         res = requests.get('http://mock.com/hello')
 
-        assert isinstance(res.text, str)
-        assert res.text == 'Hello, Mock'
+        assert isinstance(str(res.text), str)
+        assert str(res.text) == 'Hello, Mock'
